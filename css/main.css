@@ -53,6 +53,7 @@ nav a:hover {
 
 .italic {
   font-family: pt-serif;
+  font-weight: normal;
   font-style: italic;
   text-align: center;
   text-align: left;
@@ -72,7 +73,7 @@ a:not(.no-highlight) {
   color: #8f2440;
 }
 
- a:hover {
+a:hover {
   color: #b42885;
   text-decoration: underline;
 }
