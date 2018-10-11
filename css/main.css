@@ -1,6 +1,6 @@
 html {
-  background-color: #f2f1ed;
-  font-family: Georgia, serif;
+  background-color: #c9b5ab;
+  font-family: 'PT Serif', serif;
   line-height: 1.5;
 }
 
@@ -9,7 +9,7 @@ img {
 }
 
 h1, h2 {
-  color: #5d8432;
+  color: #3f1622;
   text-transform: uppercase;
   font-family: "Patua One", sans-serif;
 }
@@ -23,15 +23,16 @@ figcaption {
 nav {
   font-size: 1.125rem;
   font-weight: bold;
-  font-family: "Patua One", sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 nav ol {
   list-style-type: none;
+  font-style: bold;
 }
 
 nav a {
-  color: #793284;
+  color: #8f2440;
   text-decoration: none;
 }
 
@@ -42,4 +43,44 @@ nav a:hover {
 
 .intro {
   font-size: 1rem;
+}
+
+.strong {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.125rem
+}
+
+.italic {
+  font-family: pt-serif;
+  font-style: italic;
+  text-align: center;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.ni {
+  font-style: italic;
+}
+
+
+p {
+  color: #222;
+}
+
+a:not(.no-highlight) {
+  color: #8f2440;
+}
+
+ a:hover {
+  color: #b42885;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-greek;
 }
